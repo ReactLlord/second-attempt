@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+
+    <!-- font awesome cdn --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom file link  -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header section starts here  -->
+ <header class="header">
+    <a href="index.html" class="logo"> <i class="fas fa-shopping-basket"></i>Harkoredea</a>
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="about.html">about</a>
+        <a href="review.html">review</a>
+        <a href="blog.html">blog</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" id="search-box" placeholder="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/cold-drinks-300x300.png" class="cart-img" width="100px" height="100px">
+            <div class="content cart-item"> 
+                    <span class="product-name">Product Name</span>
+                    <span class="product-price">$10</span>
+                    <input type="number" class="product-quantity" value="1" min="1">
+                    <span class="product-total-price">$10</span>
+                    <button class="increase-quantity">Add</button>
+                
+                </div>
+            </div>
+            
+            <h3 class="total">total: <span>56.97</span></h3>
+            <a href="#" class="btn checkout-cart">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" name="" placeholder="enter your email" class="box">
+        <input type="password" name="" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remeber-me">
+            <label for="remeber-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forgot password? <a href="#">click here</a></p>
+        <p>dont have a account? <a href="#">create one</a></p>
+    </form>
+ </header>
+<!-- header section   ends  -->
+<div class="heading">
+    <h1>our shop</h1>
+    <p><a href="index.html">home >></a></p>
+</div>
+
+<section class="category">
+    <h1 class="title">our <span>category</span><a href="">view all >></a></h1>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="images/organicc-apples-300x300.png" alt="">
+            <h3>Fresh Friuts</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/organicc-brocolli-300x300.png" alt="">
+            <h3>Vegetables</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/organicc-green-chillies-300x300.png" alt="">
+            <h3>organic spices</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/Dry-fruits-300x300.png" alt="">
+            <h3>Dry fruits</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/dal-pulses-300x300.png" alt="">
+            <h3>cereal</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="images/Fragrances-Deos-300x300.png" alt="">
+            <h3>Fragrance and oil</h3>
+        </a>
+    </div>
+
+</section>
+
+<section class="products">
+    <h1 class="title"> our <span>products</span><a href="#">view all >></a></h1>
+
+        <div class="box-container">
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"  ></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/dal-pulses-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading product-name">Pulses</h3>
+                <div class="price send-price product-price">$18.99</div> 
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-grapes-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Grapes</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-capcicum-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Pepper</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/butter-cheese-300x300.png" alt=""class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Cheese</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-apples-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Apples</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-brocolli-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Brocolli</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-banana-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Banana</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send" ></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-capcicum-300x300.png" alt="" class="product-img">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Pepper</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-cheeries-300x300.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">Cheeries</h3>
+                <div class="price send-price">$18.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            </div>
+        </div>
+            <div class="box">
+            <div class="icons">
+                <a   class="fas fa-shopping-cart send"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/organicc-corn-300x300.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="send-heading">corn</h3>
+                <div class="price send-price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+ 
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" ><i class="fas fa-arrow-right"></i>home</a>
+            <a href="shop.html" ><i class="fas fa-arrow-right"></i>shop</a>
+            <a href="about.html" ><i class="fas fa-arrow-right"></i>about</a>
+            <a href="review.html" ><i class="fas fa-arrow-right"></i>review</a>
+            <a href="blog.html" ><i class="fas fa-arrow-right"></i>blog</a>
+            <a href="contact.html" ><i class="fas fa-arrow-right"></i>contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> my order </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> my favorite </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> my wishlist </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#"><i class="fab fa-facebook"></i>facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+            <a href="#"><i class="fab fa-pinterest"></i>pinterest</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+             <p>subscribe for latest updates</p>
+             <form action="">
+             <input type="email" placeholder="enter your email">
+             <input type="submit" value="subscribe" class="btn">
+             </form>
+             <!-- <img src="images/Dry-fruits-300x300.png" class="payment" alt=""> -->
+        </div>
+    </div>
+</section>
+
+<section class="credit">created by Ebun Owoeye | all rights reserved</section>
+<!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>
+    var CartImg = document.getElementsByClassName('cart-img')
+    var ProductImg= document.getElementsByClassName('product-img')
+    var ProductHeading = document.getElementsByClassName('send-heading')
+    var ProductPrice = document.getElementsByClassName('send-price')
+    var CartIcon= document.getElementsByClassName('send')
+    var CartHeading= document.getElementsByClassName('cart-heading')
+    var CartPrice= document.getElementsByClassName('cart-price')
+
+
+    CartIcon[0].onclick = function(){
+        CartImg[0].src = ProductImg[0].src
+        CartHeading[0].innerHTML = ProductHeading[0].innerHTML
+        CartPrice[0].innerHTML = ProductPrice[0].innerHTML
+
+    }
+    CartIcon[1].onclick = function(){
+        CartImg[1].src = ProductImg[1].src
+        CartHeading[1].innerHTML = ProductHeading[1].innerHTML
+        CartPrice[1].innerHTML = ProductPrice[1].innerHTML
+
+    }
+     
+    CartIcon[2].onclick = function(){
+        CartImg[2].src = ProductImg[2].src
+        CartHeading[2].innerHTML = ProductHeading[2].innerHTML
+        CartPrice[2].innerHTML = ProductPrice[2].innerHTML
+
+    }
+    CartIcon[3].onclick = function(){
+        CartImg[3].src = ProductImg[3].src
+        CartHeading[3].innerHTML = ProductHeading[3].innerHTML
+        CartPrice[3].innerHTML = ProductPrice[3].innerHTML
+
+    }
+    CartIcon[1].onclick = function(){
+        CartImg[1].src = ProductImg[1].src
+        CartHeading[1].innerHTML = ProductHeading[1].innerHTML
+        CartPrice[1].innerHTML = ProductPrice[1].innerHTML
+
+    }
+    CartIcon[1].onclick = function(){
+        CartImg[1].src = ProductImg[1].src
+        CartHeading[1].innerHTML = ProductHeading[1].innerHTML
+        CartPrice[1].innerHTML = ProductPrice[1].innerHTML
+
+    }
+
+</script> -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    // Elements
+    const cartContainer = document.querySelector('.shopping-cart');
+    const totalPriceElement = document.querySelector('.total span');
+    const cartBtn = document.querySelectorAll('.send');
+
+    let cartItems = [];
+
+    // Function to update the total cart price
+    const updateTotalPrice = () => {
+        let total = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+        totalPriceElement.textContent = `$${total.toFixed(2)}`;
+    };
+
+    // Function to add item to cart
+    const addToCart = (productName, productPrice, productImgSrc) => {
+        let existingItem = cartItems.find(item => item.name === productName);
+        if (existingItem) {
+            existingItem.quantity += 1; // Increase quantity if item already in cart
+        } else {
+            // Add new item
+            cartItems.push({ name: productName, price: parseFloat(productPrice), quantity: 1, imgSrc: productImgSrc });
+        }
+        renderCartItems();
+        updateTotalPrice();
+    };
+
+    // Function to render cart items in the cart container
+    const renderCartItems = () => {
+        const cartBox = cartContainer.querySelector('.box');
+        cartBox.innerHTML = ''; // Clear existing cart items
+
+        cartItems.forEach((item, index) => {
+            let cartItemHTML = `
+                <div class="content cart-item">
+                    <img src="${item.imgSrc}" class="cart-img" width="100px" height="100px">
+                    <span class="product-name">${item.name}</span>
+                    <span class="product-price">$${item.price.toFixed(2)}</span>
+                    <input type="number" class="product-quantity" value="${item.quantity}" min="1" data-index="${index}">
+                    <span class="product-total-price">$${(item.price * item.quantity).toFixed(2)}</span>
+                    <button class="increase-quantity" data-index="${index}">Add</button>
+                </div>
+            `;
+            cartBox.insertAdjacentHTML('beforeend', cartItemHTML);
+        });
+    };
+
+    // Event listener for each product's add-to-cart button
+    cartBtn.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const productBox = btn.closest('.box');
+            const productName = productBox.querySelector('.send-heading').textContent;
+            const productPrice = productBox.querySelector('.send-price').textContent.slice(1);
+            const productImgSrc = productBox.querySelector('.product-img').src;
+
+            addToCart(productName, productPrice, productImgSrc);
+        });
+    });
+
+    // Event listener for quantity increase buttons
+    cartContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('increase-quantity')) {
+            const index = e.target.getAttribute('data-index');
+            cartItems[index].quantity += 1;
+            renderCartItems();
+            updateTotalPrice();
+        }
+    });
+
+    // Event listener for quantity input changes
+    cartContainer.addEventListener('input', (e) => {
+        if (e.target.classList.contains('product-quantity')) {
+            const index = e.target.getAttribute('data-index');
+            const newQuantity = parseInt(e.target.value);
+            cartItems[index].quantity = newQuantity;
+            updateTotalPrice();
+        }
+    });
+});
+
+ 
+    
+</script>
+
+
+
+
+
+   <!-- custom javascript link  -->
+   <script src="index.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>
